@@ -8,26 +8,26 @@ Người gắn nhãn 1: Phan Sỹ Hùng (@KumaMichio) · Người gắn nhãn 2:
 
 | Ca | Nhãn người 1 | Nhãn người 2 | Trùng? | Nhãn thống nhất |
 | --: | --- | --- | --- | --- |
-| 1 | _chờ Hùng_ | Do người dùng | _chờ so_ | _chờ gộp_ |
-| 2 | _chờ Hùng_ | Hệ thống | _chờ so_ | _chờ gộp_ |
-| 3 | _chờ Hùng_ | Ngữ cảnh | _chờ so_ | _chờ gộp_ |
-| 4 | _chờ Hùng_ | Giới hạn hệ thống | _chờ so_ | _chờ gộp_ |
-| 5 | _chờ Hùng_ | Ngầm | _chờ so_ | _chờ gộp_ |
-| 6 | _chờ Hùng_ | Do người dùng | _chờ so_ | _chờ gộp_ |
-| 7 | _chờ Hùng_ | Hệ thống | _chờ so_ | _chờ gộp_ |
-| 8 | _chờ Hùng_ | Hệ thống | _chờ so_ | _chờ gộp_ |
-| 9 | _chờ Hùng_ | Do người dùng | _chờ so_ | _chờ gộp_ |
-| 10 | _chờ Hùng_ | Ngữ cảnh | _chờ so_ | _chờ gộp_ |
-| 11 | _chờ Hùng_ | Giới hạn hệ thống | _chờ so_ | _chờ gộp_ |
-| 12 | _chờ Hùng_ | Ngầm | _chờ so_ | _chờ gộp_ |
-| 13 | _chờ Hùng_ | Giới hạn hệ thống | _chờ so_ | _chờ gộp_ |
-| 14 | _chờ Hùng_ | Do người dùng | _chờ so_ | _chờ gộp_ |
-| 15 | _chờ Hùng_ | Hệ thống | _chờ so_ | _chờ gộp_ |
-| 16 | _chờ Hùng_ | Ngữ cảnh | _chờ so_ | _chờ gộp_ |
-| 17 | _chờ Hùng_ | Ngầm | _chờ so_ | _chờ gộp_ |
-| 18 | _chờ Hùng_ | Ngữ cảnh | _chờ so_ | _chờ gộp_ |
-| 19 | _chờ Hùng_ | Giới hạn hệ thống | _chờ so_ | _chờ gộp_ |
-| 20 | _chờ Hùng_ | Hệ thống | _chờ so_ | _chờ gộp_ |
+| 1 | Do người dùng | Do người dùng | _chờ so_ | _chờ gộp_ |
+| 2 | Hệ thống | Hệ thống | _chờ so_ | _chờ gộp_ |
+| 3 | Ngữ cảnh | Ngữ cảnh | _chờ so_ | _chờ gộp_ |
+| 4 | Giới hạn hệ thống | Giới hạn hệ thống | _chờ so_ | _chờ gộp_ |
+| 5 | Ngầm | Ngầm | _chờ so_ | _chờ gộp_ |
+| 6 | Do người dùng | Do người dùng | _chờ so_ | _chờ gộp_ |
+| 7 | Hệ thống | Hệ thống | _chờ so_ | _chờ gộp_ |
+| 8 | Hệ thống | Hệ thống | _chờ so_ | _chờ gộp_ |
+| 9 | Do người dùng | Do người dùng | _chờ so_ | _chờ gộp_ |
+| 10 | Ngữ cảnh | Ngữ cảnh | _chờ so_ | _chờ gộp_ |
+| 11 | Giới hạn hệ thống | Giới hạn hệ thống | _chờ so_ | _chờ gộp_ |
+| 12 | Ngầm | Ngầm | _chờ so_ | _chờ gộp_ |
+| 13 | Giới hạn hệ thống | Giới hạn hệ thống | _chờ so_ | _chờ gộp_ |
+| 14 | Do người dùng | Do người dùng | _chờ so_ | _chờ gộp_ |
+| 15 | Hệ thống | Hệ thống | _chờ so_ | _chờ gộp_ |
+| 16 | Ngữ cảnh | Ngữ cảnh | _chờ so_ | _chờ gộp_ |
+| 17 | Hệ thống | Ngầm | _chờ so_ | _chờ gộp_ |
+| 18 | Ngữ cảnh | Ngữ cảnh | _chờ so_ | _chờ gộp_ |
+| 19 | Giới hạn hệ thống | Giới hạn hệ thống | _chờ so_ | _chờ gộp_ |
+| 20 | Hệ thống | Hệ thống | _chờ so_ | _chờ gộp_ |
 
 **Tỉ lệ đồng thuận:** _chờ so nhãn_ / 20 = _…_% (cần ≥ 16/20 = 80%)
 
