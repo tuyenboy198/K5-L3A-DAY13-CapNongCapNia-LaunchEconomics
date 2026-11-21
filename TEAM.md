@@ -51,6 +51,7 @@ report/team/MSSV_HoTen.md
 - Viết A1–A4, B1–B4 trong `src/lab13.py` và các bảng số A1–A4, B1, B3, B4 trong `bang_chi_phi.md` (commit `fb9af99`): ba phép thử ĐẠT; 4.472 đ/việc thành công [simulated].
 - Kiểm số D1 bằng cách độc lập (statsmodels `NormalIndPower`, Cohen's h): 1.250 so với 1.251 · DE 2,48 · 1.000 · 300 · m ≥ 299; power 0,64 ở mức 5 điểm với n = 859. Lệch ≤ 0,3%.
 - Clone sạch nhánh nộp, chạy `python lab13.py` hết, `pilot_plan.yaml` qua `yaml.safe_load`, không còn `?`.
+- E1 trong `chi_so.md`: tính thử 3 chỉ số (82,83% · 27,12% · 4,25%), 2 chỉ số tự đề xuất, 10 event có `trace_id`, kiểm tra chéo chỉ số ↔ event.
 - `ho_so_launch_v0.md` đủ 7 mục và đề xuất Go có điều kiện (4 điều kiện, mỗi điều kiện có vai trò và ngày kiểm tra); `group_report.md`; merge các nhánh.
 
 ### Bằng chứng

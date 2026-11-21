@@ -20,6 +20,7 @@
 - Viết A1–A4, B1–B4 trong `src/lab13.py`: ba phép thử A1 ĐẠT (1,20 · 1,25 · 1,25); chi phí mỗi việc thành công 4.472 đ, gấp 16,3 lần hoá đơn token + tool chia số yêu cầu [simulated]; điền bảng số A1–A4, B1, B3, B4 trong `bang_chi_phi.md`.
 - Kiểm số D1 của người viết code 2 bằng cách tính khác (statsmodels `NormalIndPower` với Cohen's h, không dùng hàm `co_mau`): 1.250 so với 1.251 yêu cầu mỗi nhóm; DE 2,48; tối đa 1.000 và 300; m ≥ 299 (DE 6,96); power 0,64 khi tác động thật 5 điểm với n = 859.
 - Điền hồ sơ launch v0 đủ 7 mục; đề xuất **Go có điều kiện** cho pilot `noi_dia` + `hang_nang`, nêu cả con số bất lợi (xem lại 100% còn 0,98×–1,03× [simulated], power 0,64).
+- E1 trong `chi_so.md`: tính thử 3 chỉ số trên 1.200 yêu cầu (chính 82,83%, bỏ qua gợi ý 27,12%, mở lại 7 ngày 4,25%), đề xuất 1 chỉ số dùng và 1 chỉ số an toàn, 10 event có `trace_id`, kiểm tra chéo mỗi chỉ số với event.
 - Viết báo cáo nhóm; merge các nhánh của thành viên.
 
 ## 4. Bằng chứng
@@ -35,4 +36,4 @@
 ## 6. Tự đánh giá
 
 - Xong: setup repo, A và B, kiểm số D1, hồ sơ launch v0 (mục 1, 2, 3, 6, 7 và đề xuất), báo cáo nhóm.
-- Còn chờ: mục 4 và 5 của hồ sơ chuyển sang "Xong" khi có E1 trong `chi_so.md` và bộ nhãn người 1; điền commit chốt vào `TEAM.md` khi push bản cuối.
+- Còn chờ: mục 5 của hồ sơ chuyển sang "Xong" khi có bộ nhãn người 1 và tỉ lệ đồng thuận; điền commit chốt vào `TEAM.md` khi push bản cuối.
