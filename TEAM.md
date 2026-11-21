@@ -119,7 +119,8 @@ report/team/MSSV_HoTen.md
 
 - Bộ nhãn độc lập người 2 cho 20 ca (commit trước khi so nhãn); bảng khắc phục 5 ca đủ 5 loại.
 - E2: 3 dòng rủi ro kinh tế (làm lại × 2, xem lại 100%, chi phí cố định ở nửa khối lượng), có nhãn simulated.
-- Chờ: gộp nhãn với người gắn nhãn 1; phiếu chấm nhóm n + 1.
+- Gộp nhãn với người gắn nhãn 1: đồng thuận 19/20 = 95%; cập nhật mục 5 hồ sơ.
+- Chờ: phiếu chấm nhóm n + 1.
 
 ### Bằng chứng
 
