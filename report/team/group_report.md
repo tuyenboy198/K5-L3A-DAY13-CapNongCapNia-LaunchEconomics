@@ -28,7 +28,7 @@ Dựng hồ sơ launch v0 cho trợ lý hoàn phí LogiX-VN để hội đồng 
 - Con số bất lợi: xem lại 100% còn 0,98×–1,03× của 12.000 đ [simulated]; mde 6 điểm nên power chỉ 0,64 nếu tác động thật là 5 điểm.
 - Chỉ số trong đợt chạy thử: chính 82,83% · bỏ qua gợi ý 27,12% · mở lại 7 ngày 4,25%.
 - **Đề xuất: Go có điều kiện** cho pilot `noi_dia` + `hang_nang`, 4 điều kiện có vai trò và ngày kiểm tra (xem `ho_so_launch_v0.md`).
-- Kết quả duyệt chéo nhóm nhận được: ... (điền sau buổi Gate 2a).
+- Kết quả duyệt chéo nhóm nhận được: hội đồng nhóm VOI chấm **25/30** (khớp bằng chứng 10 · số giả lập và phạm vi 10 · pilot 5), quyết định **Go có điều kiện**. Tiêu chí pilot bị trừ vì hồ sơ một trang chỉ ghi "3 luật dừng", hội đồng chưa đối chiếu ngưỡng, thời hạn, người có quyền dừng trong `pilot_plan.yaml` (file đã có đủ). Câu hỏi: cần bao nhiêu yêu cầu mỗi tuần để kịp ngày quyết định 2027-01-12 nếu bước 50% bắt đầu 2026-12-21. Nhóm trả lời: 3.000 yêu cầu/nhóm/tuần (~150/nhân viên, khớp ước tính ~31/người/ngày trong `pilot_plan.yaml`), sau 2 tuần có ~6.000/nhóm, vượt mức 5.980 cần thiết; nếu lưu lượng thấp thì kéo dài thu mẫu cho cả hai nhóm và lùi ngày quyết định. Bài học: chép ngưỡng luật dừng vào hồ sơ một trang.
 
 ## 5. Khó khăn và cách xử lý
 

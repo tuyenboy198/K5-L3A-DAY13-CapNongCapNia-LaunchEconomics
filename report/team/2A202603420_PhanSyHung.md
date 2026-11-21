@@ -21,7 +21,7 @@
 - E1: tính độc lập trên 1.200 yêu cầu, khớp bản trong `chi_so.md`: chỉ số chính trong đợt chạy thử 82,83% (994/1.200), bỏ qua gợi ý 27,12% (48/177: 41 sửa + 7 bỏ), lỗi lọt đến khách 4,25% (51/1.200), phạm vi `noi_dia` + `hang_nang` 3,97% (39/982).
 - Phát hiện thêm: cả 51 ca mở lại đều có `ket_qua = lam_lai`; chỉ số chính theo loại là `noi_dia` 95,27%, `hang_nang` 76,58%, `doi_tac` 58,82%, `quoc_te` 32,00%. Đây là chênh lệch trong đợt chạy thử, chưa phải tác động của trợ lý.
 - CP3: tự gắn nhãn độc lập 20 ca (commit `028c8ed` trước khi so); đồng thuận với Huệ 19/20 = 95%. Ca 17 không trùng (tôi: Hệ thống, Huệ: Ngầm); quy tắc: lỗi hệ thống chưa ai nhận ra cho tới khi kiểm tra thì gắn Ngầm.
-- Hội đồng: ... (điền câu hỏi có số đã đặt cho nhóm n + 1)
+- Hội đồng (cùng Huệ chấm nhóm VOI, 30/30, quyết định Go có điều kiện): câu hỏi đặt cho đội trình là "Tỉ lệ mở lại 7 ngày hiện tại đã là 4,25% (51/1.200). Luật dừng an toàn đặt ngưỡng bao nhiêu, đo trong bao lâu, ai bấm dừng? Nếu ngưỡng tuyệt đối dưới 4,25% thì pilot có bị dừng ngay tuần đầu không?". VOI trả lời: ngưỡng so với đối chứng (cao hơn ≥ 2 điểm, hoặc > 6%, hoặc ≥ 1 ca hoàn trùng), trong 3 ngày liên tiếp, Giám đốc vận hành tắt trong 30 phút. Hội đồng góp ý: ca hoàn trùng đang phải lặp 3 ngày mới dừng, nên tách ra thành dừng ngay khi có 1 ca.
 
 ## 4. Bằng chứng
 
