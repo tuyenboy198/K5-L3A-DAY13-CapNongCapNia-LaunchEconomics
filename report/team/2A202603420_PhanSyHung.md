@@ -26,7 +26,7 @@
 ## 4. Bằng chứng
 
 - `report/team/chi_so.md` (E1), `report/team/bang_loi.md` (cột nhãn người 1).
-- Commit: `c0f6f24` (đối chiếu CP1–CP2, E1), `028c8ed` (bộ nhãn người 1, trước khi so), `3188925` (so nhãn, quy tắc ca 17).
+- Commit: `c0f6f24` (đối chiếu CP1–CP2, E1), `028c8ed` (bộ nhãn người 1, trước khi so), `3188925` (so nhãn, quy tắc ca 17), `8bc4674` (chốt nhãn thống nhất ca 17 = Ngầm).
 
 ## 5. Công cụ AI đã dùng
 
@@ -34,4 +34,6 @@ Dùng Claude Code để tính lại ba chỉ số bằng pandas, chạy lại `l
 
 ## 6. Tự đánh giá
 
-...
+- Làm tốt: gắn nhãn độc lập và commit trước khi so, đồng thuận 19/20 = 95%; số E1 tính độc lập khớp bản trong `chi_so.md` (82,83% · 27,12% · 4,25%); đối chiếu CP1–CP2 với đáp án, lệch tối đa 0,01%.
+- Chưa tốt: dựa nhiều vào AI để soạn nháp và đối chiếu số; E1 trùng việc với Tuyên vì chưa pull bản mới trước khi làm, phải bỏ bản của mình.
+- Bài học: gắn nhãn theo nguyên nhân gốc và theo việc lỗi đã lộ ra hay chưa (ca 17: Hệ thống hay Ngầm); chỉ số nào không tính được từ danh sách event thì chưa đo được.
