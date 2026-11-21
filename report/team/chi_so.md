@@ -33,7 +33,7 @@ Viết "chỉ số trong đợt chạy thử là …", không viết "trợ lý 
 
 Ít nhất hai dòng, số lấy từ bảng độ nhạy (`bang_chi_phi.md`).
 
-Gốc A2: 4.472 đ/việc thành công [simulated]. Phạm vi pilot `noi_dia` + `hang_nang`: 982 yêu cầu, 900 việc thành công, 3.414 đ/việc [simulated]. Số được kiểm độc lập bằng tính tay (script thư viện chuẩn đọc hai file CSV), khớp các dòng B1, B4, A4 của `bang_chi_phi.md`.
+Gốc A2: 4.472 đ/việc thành công [simulated]. Phạm vi pilot `noi_dia` + `hang_nang`: 982 yêu cầu, 900 việc thành công, 3.414 đ/việc [simulated]. Số lấy từ các dòng B1, B4, A4 của `bang_chi_phi.md` (do `src/lab13.py` tính), đã kiểm độc lập bằng tính tay trên hai file CSV: trùng khớp.
 
 | Rủi ro | Tác động đã tính | Dấu hiệu theo dõi | Hành động | Người phụ trách |
 | --- | --- | --- | --- | --- |
