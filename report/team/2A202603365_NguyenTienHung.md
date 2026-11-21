@@ -32,7 +32,7 @@
 ## 5. Công cụ AI đã dùng
 
 - Claude Code: gợi ý khung code `mo_hinh` và các vòng B1–B4, soạn câu chữ cho các câu trả lời trong `bang_chi_phi.md`.
-- Cách tự kiểm tra: chạy `lab13.py` và so với đáp án tham chiếu trong hướng dẫn (lệch ≤ 2%); kiểm "giảm một nửa = nửa mức tăng"; cộng tay tỉ trọng 5,6% + 1,9% + 40,7% + 51,8% = 100%; tự giải thích được vì sao tử số tính mọi lần chạy còn mẫu số chỉ đếm việc thành công; `grep -rni production report/team` không in gì.
+- Cách tự kiểm tra: chạy `lab13.py` và so với đáp án tham chiếu trong hướng dẫn (lệch ≤ 2%); kiểm "giảm một nửa = nửa mức tăng"; cộng tay tỉ trọng 5,6% + 1,9% + 40,7% + 51,8% = 100%; tự giải thích được vì sao tử số tính mọi lần chạy còn mẫu số chỉ đếm việc thành công.
 
 ## 6. Tự đánh giá
 
