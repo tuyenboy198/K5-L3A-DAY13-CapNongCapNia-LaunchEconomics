@@ -24,7 +24,7 @@ Người gắn nhãn 1: Phan Sỹ Hùng (@KumaMichio) · Người gắn nhãn 2:
 | 14 | Do người dùng | Do người dùng | Có | Do người dùng |
 | 15 | Hệ thống | Hệ thống | Có | Hệ thống |
 | 16 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh |
-| 17 | Hệ thống | Ngầm | Không | Ngầm (đề xuất, chờ Huệ xác nhận) |
+| 17 | Hệ thống | Ngầm | Không | Ngầm |
 | 18 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh |
 | 19 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống |
 | 20 | Hệ thống | Hệ thống | Có | Hệ thống |
@@ -43,7 +43,7 @@ Mỗi ca không trùng một câu. Đồng thuận dưới 80% thì ghi định 
 
 Cách phát hiện phải đo được (event, ngưỡng, tần suất). Người phụ trách là một vai trò, không ghi "cả đội".
 
-Bảng nháp theo bộ nhãn người 2; chốt lại sau khi gộp nếu nhãn thống nhất của ca nào khác đi.
+Đã chốt theo nhãn thống nhất (ca 17 = Ngầm); 5 ca đủ năm loại.
 
 | Ca | Loại lỗi | Phát hiện bằng gì | Khắc phục thế nào | Ai phụ trách |
 | --: | --- | --- | --- | --- |
