@@ -5,7 +5,7 @@
 - Tên nhóm: CapNongCapNia
 - Lớp: L3A
 - Repo nhóm: `K5-L3A-DAY13-CapNongCapNia-LaunchEconomics` (xem [SUBMISSION.md](SUBMISSION.md))
-- URL repo, nhánh nộp, commit chốt: https://github.com/tuyenboy198/K5-L3A-DAY13-CapNongCapNia-LaunchEconomics · `main` · commit chốt: ...
+- URL repo, nhánh nộp, commit chốt: https://github.com/tuyenboy198/K5-L3A-DAY13-CapNongCapNia-LaunchEconomics · `main` · commit chốt: `9ec0982` (toàn bộ code và hồ sơ; commit sau chỉ ghi mã này vào `TEAM.md`)
 
 ## Thành viên
 
