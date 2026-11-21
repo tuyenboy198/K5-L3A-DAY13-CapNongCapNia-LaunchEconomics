@@ -26,7 +26,7 @@
 ## 4. Bằng chứng
 
 - `report/team/chi_so.md` (E1), `report/team/bang_loi.md` (cột nhãn người 1).
-- Commit: ... (điền hash)
+- Commit: `c0f6f24` (đối chiếu CP1–CP2, E1), `028c8ed` (bộ nhãn người 1, trước khi so), `3188925` (so nhãn, quy tắc ca 17).
 
 ## 5. Công cụ AI đã dùng
 
