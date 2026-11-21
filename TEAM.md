@@ -2,19 +2,20 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
-- Lớp: L3A hoặc L3B
-- Repo nhóm: `K5-L3A-DAY13-TenNhom-LaunchEconomics` (xem [SUBMISSION.md](SUBMISSION.md))
-- URL repo, nhánh nộp, commit chốt:
+- Tên nhóm: CapNongCapNia
+- Lớp: L3A
+- Repo nhóm: `K5-L3A-DAY13-CapNongCapNia-LaunchEconomics` (xem [SUBMISSION.md](SUBMISSION.md))
+- URL repo, nhánh nộp, commit chốt: https://github.com/tuyenboy198/K5-L3A-DAY13-CapNongCapNia-LaunchEconomics · `main` · commit chốt: ...
 
 ## Thành viên
 
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
-|   1 |        |      |       |        |         |
-|   2 |        |      |       |        |         |
-|   3 |        |      |       |        |         |
-|   4 |        |      |       |        |         |
+|   1 | Dương Ngọc Tuyên | 2A202603511 | vlthuthuatblog@gmail.com | tuyenboy198 | Trưởng nhóm · Người giữ hồ sơ · Tích hợp |
+|   2 | Nguyễn Tiến Hưng | 2A202603365 | nguyentienhung04042004@gmail.com | tienhungw | Người viết code 1 (CP1–CP2) · Kiểm số D |
+|   3 | Dương Minh Tân | 2A202603464 | duongminhtan325@gmail.com | mihtan05 | Người kiểm số (CP1–CP2) · Người viết code 2 (CP4) |
+|   4 | Phan Sỹ Hùng | 2A202603420 | hungphan120304@gmail.com | KumaMichio | Người gắn nhãn 1 · Chỉ số và event |
+|   5 | Dương Thị Huệ | 2A202603430 | duonghue2004yp@gmail.com | dhuee10 | Người gắn nhãn 2 · Bảng lỗi · Rủi ro kinh tế · Phiếu chấm |
 
 Bốn vai của lab:
 
@@ -25,6 +26,8 @@ Bốn vai của lab:
 
 Đổi người viết code sau giờ giải lao, để ít nhất hai người trong nhóm tự tay tính được chi phí.
 
+Nhóm có 5 người nên tách thêm vai **trưởng nhóm · giữ hồ sơ · tích hợp**; vai giữ hồ sơ chuyển từ người gắn nhãn 2 sang trưởng nhóm. Người viết code đổi từ Hưng (trước giải lao) sang Tân (sau giải lao).
+
 ## Cá nhân
 
 Mỗi thành viên đồng thời tạo một báo cáo riêng trong `report/` theo dạng:
@@ -33,15 +36,73 @@ Mỗi thành viên đồng thời tạo một báo cáo riêng trong `report/` t
 report/team/MSSV_HoTen.md
 ```
 
-Ví dụ: `report/team/20241234_NguyenVanAn.md`.
-
-Sao chép mục dưới đây cho từng thành viên.
-
-## HoVaTen-MSSV
+## DuongNgocTuyen-2A202603511
 
 ### Phần việc phụ trách
 
+- Tạo repo nhóm, điền `TEAM.md`, tích hợp và push bản nộp.
+- Giữ hồ sơ: `report/team/ho_so_launch_v0.md` (7 mục và đề xuất cuối).
+- `report/team/group_report.md`; trình bày khi nhóm bị duyệt chéo Gate 2a.
+
+### Đóng góp cụ thể
+
 -
+
+### Bằng chứng
+
+-
+
+## NguyenTienHung-2A202603365
+
+### Phần việc phụ trách
+
+- `src/lab13.py` phần CP1–CP2 (A1–A4, B1–B4); các bảng số trong `report/team/bang_chi_phi.md`.
+- Kiểm số D1 sau giải lao; chạy lại `lab13.py` trên máy mình trước khi nộp.
+
+### Đóng góp cụ thể
+
+-
+
+### Bằng chứng
+
+-
+
+## DuongMinhTan-2A202603464
+
+### Phần việc phụ trách
+
+- Kiểm số CP1–CP2 (tính tay, câu trả lời A2–A4, B2–B4 trong `report/team/bang_chi_phi.md`).
+- `src/lab13.py` phần CP4 (D1); `report/team/pilot_plan.yaml`.
+
+### Đóng góp cụ thể
+
+-
+
+### Bằng chứng
+
+-
+
+## PhanSyHung-2A202603420
+
+### Phần việc phụ trách
+
+- Gắn nhãn độc lập 20 ca (người 1) trong `report/team/bang_loi.md`.
+- `report/team/chi_so.md` phần E1 và danh sách event; hội đồng chấm nhóm n + 1.
+
+### Đóng góp cụ thể
+
+-
+
+### Bằng chứng
+
+-
+
+## DuongThiHue-2A202603430
+
+### Phần việc phụ trách
+
+- Gắn nhãn độc lập 20 ca (người 2); gộp nhãn, tỉ lệ đồng thuận, bảng khắc phục trong `report/team/bang_loi.md`.
+- `report/team/chi_so.md` phần E2 (rủi ro kinh tế); chủ trì `report/team/phieu_cham.md`.
 
 ### Đóng góp cụ thể
 
