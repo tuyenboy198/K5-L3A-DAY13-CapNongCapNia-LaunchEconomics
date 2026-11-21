@@ -24,8 +24,8 @@ Số tính bằng `src/lab13.py`. Mọi con số tính từ cột `_simulated` g
 | Chi phí mỗi việc thành công | 4.472 | | simulated |
 | Hoá đơn token và tool chia cho số yêu cầu | 274,7 | | đo từ trace |
 
-- Chi phí mỗi việc thành công gấp bao nhiêu lần "hoá đơn chia số yêu cầu"? ...
-- Khoản nào chiếm tỉ trọng lớn nhất trong tổng chi phí, bao nhiêu phần trăm? ...
+- Chi phí mỗi việc thành công gấp bao nhiêu lần "hoá đơn chia số yêu cầu"? Gấp 16,3 lần: 4.472 đ so với 274,7 đ [simulated]. Phần chênh là giờ nhân viên xem lại và làm lại, hoá đơn token + tool không thấy.
+- Khoản nào chiếm tỉ trọng lớn nhất trong tổng chi phí, bao nhiêu phần trăm? Làm lại 51,8% (2.264.000 đ), kế đó xem lại 40,7%; token chỉ 5,6% và tool 1,9% [simulated].
 
 ## A3 · Tách theo loại yêu cầu
 
@@ -38,7 +38,7 @@ Số tính bằng `src/lab13.py`. Mọi con số tính từ cột `_simulated` g
 
 Tỉ lệ lần chạy `ok` theo lần thử (đo từ trace): noi_dia 91,0% → 75,7% → 38,9% · hang_nang 70,9% → 39,1% → 17,9% · quoc_te 30,0% → 11,4% → 2,2% · doi_tac 51,5% → 18,2% → 14,8%.
 
-- Loại nào không đáng để trợ lý xử lý? Với loại đó, cho chạy lại tới 3 lần có giúp không? ...
+- Loại nào không đáng để trợ lý xử lý? Với loại đó, cho chạy lại tới 3 lần có giúp không? `quoc_te`: thành công 27,3%, 22.515 đ = 1,88× của 12.000 đ [simulated]. Chạy lại không giúp, tỉ lệ ok giảm 30,0% → 11,4% → 2,2% qua ba lần thử, lỗi lặp lại nên chỉ tốn thêm tiền; `doi_tac` (0,85×) sát ngưỡng nên cũng ngoài phạm vi pilot.
 
 ## A4 · Chi phí cố định (phạm vi noi_dia + hang_nang)
 
@@ -47,7 +47,7 @@ Tỉ lệ lần chạy `ok` theo lần thử (đo từ trace): noi_dia 91,0% →
 | 45.000 yêu cầu/tháng | 33.750 | 1.185 đ | 3.414 + 1.185 = 4.599 đ [simulated] | 0,38× |
 | Một nửa khối lượng | 16.875 | 2.370 đ | 3.414 + 2.370 = 5.784 đ [simulated] | 0,48× |
 
-- Chi phí cố định có đổi kết luận không? Ở khối lượng nào? ...
+- Chi phí cố định có đổi kết luận không? Ở khối lượng nào? Không ở 45.000 yêu cầu/tháng (4.599 đ = 0,38×), vẫn rẻ hơn nhiều so với 12.000 đ. Ở một nửa khối lượng cố định tăng gấp đôi lên 2.370 đ/việc (5.784 đ = 0,48×) nhưng vẫn dưới 12.000 đ [simulated].
 
 ## B1 · Đổi từng yếu tố
 
@@ -67,7 +67,7 @@ Tỉ lệ lần chạy `ok` theo lần thử (đo từ trace): noi_dia 91,0% →
 ## B2 · Đổi một cặp và xếp hạng
 
 - Giá token gấp đôi cùng lúc tỉ lệ xem lại gấp đôi: 6.543 đ (+46,3%) [simulated], bằng +5,6% + 40,7% vì mô hình cộng tuyến tính.
-- Xếp hạng ba yếu tố ảnh hưởng mạnh nhất: 1. ... · 2. ... · 3. ...
+- Xếp hạng ba yếu tố ảnh hưởng mạnh nhất (theo mức đổi khi gấp đôi/tăng): 1. số ca làm lại (+51,8%) · 2. tỉ lệ xem lại (+40,7%) · 3. lương nhân viên (+23,1% khi tăng 25%) [simulated]. Giá token chỉ +5,6% nên không phải yếu tố cần theo dõi chính.
 
 ## B3 · Giới hạn chạy lại có thật sự rẻ hơn
 
@@ -81,9 +81,9 @@ Mọi số trong bảng B3 là simulated (có tiền xem lại, làm lại). Chi
 
 Số liệu B4 (simulated, `noi_dia` + `hang_nang`): 948 yêu cầu có lần chạy ok × 5 phút xem lại; 48 ca làm lại; token + tool 224.513 đ; 900 việc thành công. Làm lại 9 phút/ca: 11.743 đ = 0,98×, hoà vốn khi xem lại ≤ 5,1 phút. Làm lại 15,3 phút/ca (trung bình cột `phut_lam_lai_simulated`): 12.415 đ = 1,03×, hoà vốn ≤ 4,8 phút.
 
-- Giới hạn nào rẻ nhất cho công ty? Có trùng với giới hạn cho chi phí mỗi việc thành công thấp nhất không? ...
+- Giới hạn nào rẻ nhất cho công ty? Có trùng với giới hạn cho chi phí mỗi việc thành công thấp nhất không? Giới hạn 2 lần rẻ nhất cho cả hệ thống (6.901.220 đ), nhưng chi phí mỗi việc thành công thấp nhất ở giới hạn 1 lần (4.111 đ); hai giới hạn không trùng. Giới hạn 1 lần đẩy thêm 85 yêu cầu (319 so với 234) sang nhân viên, mỗi yêu cầu 12.000 đ [simulated].
 
 ## B4 · Nếu phải xem lại tất cả
 
-- Chi phí mỗi việc thành công khi xem lại 100% (`noi_dia` + `hang_nang`), so với 12.000 đ: ...
-- Kết quả này nói gì về thứ pilot cần học được? ...
+- Chi phí mỗi việc thành công khi xem lại 100% (`noi_dia` + `hang_nang`), so với 12.000 đ: 11.743 đ = 0,98× (làm lại 9 phút/ca); 12.415 đ = 1,03× với 15,3 phút làm lại như dữ liệu, tức đắt hơn nhân viên tự làm [simulated].
+- Kết quả này nói gì về thứ pilot cần học được? Tiền xem lại chiếm 89,7% tổng (9.480.000 đ / 10.568.513 đ) nên xem lại 100% gần như không tiết kiệm. Pilot cần đo tỉ lệ xem lại giảm được bao nhiêu mà vẫn an toàn, và mỗi lần xem lại có ≤ 5 phút (hoà vốn 5,1 phút) được không [simulated].
