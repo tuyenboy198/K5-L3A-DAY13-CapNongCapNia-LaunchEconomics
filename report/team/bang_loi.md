@@ -4,32 +4,34 @@
 
 ## Hai bộ nhãn độc lập
 
-Người gắn nhãn 1: ... · Người gắn nhãn 2: ... (gắn trong 8 phút, không trao đổi)
+Người gắn nhãn 1: Phan Sỹ Hùng (@KumaMichio) · Người gắn nhãn 2: Dương Thị Huệ (@dhuee10) (gắn trong 8 phút, không trao đổi)
 
 | Ca | Nhãn người 1 | Nhãn người 2 | Trùng? | Nhãn thống nhất |
 | --: | --- | --- | --- | --- |
-| 1 | ... | ... | ... | ... |
-| 2 | ... | ... | ... | ... |
-| 3 | ... | ... | ... | ... |
-| 4 | ... | ... | ... | ... |
-| 5 | ... | ... | ... | ... |
-| 6 | ... | ... | ... | ... |
-| 7 | ... | ... | ... | ... |
-| 8 | ... | ... | ... | ... |
-| 9 | ... | ... | ... | ... |
-| 10 | ... | ... | ... | ... |
-| 11 | ... | ... | ... | ... |
-| 12 | ... | ... | ... | ... |
-| 13 | ... | ... | ... | ... |
-| 14 | ... | ... | ... | ... |
-| 15 | ... | ... | ... | ... |
-| 16 | ... | ... | ... | ... |
-| 17 | ... | ... | ... | ... |
-| 18 | ... | ... | ... | ... |
-| 19 | ... | ... | ... | ... |
-| 20 | ... | ... | ... | ... |
+| 1 | _chờ Hùng_ | Do người dùng | _chờ so_ | _chờ gộp_ |
+| 2 | _chờ Hùng_ | Hệ thống | _chờ so_ | _chờ gộp_ |
+| 3 | _chờ Hùng_ | Ngữ cảnh | _chờ so_ | _chờ gộp_ |
+| 4 | _chờ Hùng_ | Giới hạn hệ thống | _chờ so_ | _chờ gộp_ |
+| 5 | _chờ Hùng_ | Ngầm | _chờ so_ | _chờ gộp_ |
+| 6 | _chờ Hùng_ | Do người dùng | _chờ so_ | _chờ gộp_ |
+| 7 | _chờ Hùng_ | Hệ thống | _chờ so_ | _chờ gộp_ |
+| 8 | _chờ Hùng_ | Hệ thống | _chờ so_ | _chờ gộp_ |
+| 9 | _chờ Hùng_ | Do người dùng | _chờ so_ | _chờ gộp_ |
+| 10 | _chờ Hùng_ | Ngữ cảnh | _chờ so_ | _chờ gộp_ |
+| 11 | _chờ Hùng_ | Giới hạn hệ thống | _chờ so_ | _chờ gộp_ |
+| 12 | _chờ Hùng_ | Ngầm | _chờ so_ | _chờ gộp_ |
+| 13 | _chờ Hùng_ | Giới hạn hệ thống | _chờ so_ | _chờ gộp_ |
+| 14 | _chờ Hùng_ | Do người dùng | _chờ so_ | _chờ gộp_ |
+| 15 | _chờ Hùng_ | Hệ thống | _chờ so_ | _chờ gộp_ |
+| 16 | _chờ Hùng_ | Ngữ cảnh | _chờ so_ | _chờ gộp_ |
+| 17 | _chờ Hùng_ | Ngầm | _chờ so_ | _chờ gộp_ |
+| 18 | _chờ Hùng_ | Ngữ cảnh | _chờ so_ | _chờ gộp_ |
+| 19 | _chờ Hùng_ | Giới hạn hệ thống | _chờ so_ | _chờ gộp_ |
+| 20 | _chờ Hùng_ | Hệ thống | _chờ so_ | _chờ gộp_ |
 
-**Tỉ lệ đồng thuận:** ... / 20 = ...%
+**Tỉ lệ đồng thuận:** _chờ so nhãn_ / 20 = _…_% (cần ≥ 16/20 = 80%)
+
+Phân bố bộ nhãn người 2: Do người dùng 4 (ca 1, 6, 9, 14) · Hệ thống 5 (ca 2, 7, 8, 15, 20) · Ngữ cảnh 4 (ca 3, 10, 16, 18) · Giới hạn hệ thống 4 (ca 4, 11, 13, 19) · Ngầm 3 (ca 5, 12, 17).
 
 ## Quy tắc phân biệt cho các ca không trùng
 
