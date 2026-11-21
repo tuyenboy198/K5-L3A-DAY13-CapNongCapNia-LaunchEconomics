@@ -61,11 +61,13 @@ report/team/MSSV_HoTen.md
 
 ### Đóng góp cụ thể
 
--
+- A1–A4, B1–B4 trong `lab13.py`: ba phép thử ĐẠT; chi phí mỗi việc thành công 4.472 đ, 978 việc thành công, gấp 16,3 lần hoá đơn token + tool [simulated].
+- Bảng A2, A3, A4, B1, B3, B4 và câu trả lời trong `bang_chi_phi.md`: yếu tố nhạy nhất là số ca làm lại (+51,8%); giới hạn 2 lần rẻ nhất cho cả hệ thống; xem lại 100% còn 0,98×–1,03× [simulated].
+- Chờ: kiểm số D1 (cần code CP4 của Tân).
 
 ### Bằng chứng
 
--
+- Nhánh `tienhungw/cp1`, `tienhungw/report`; `src/lab13.py`, `report/team/bang_chi_phi.md`, `report/team/2A202603365_NguyenTienHung.md`.
 
 ## DuongMinhTan-2A202603464
 
