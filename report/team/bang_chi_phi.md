@@ -2,6 +2,11 @@
 
 Số tính bằng `src/lab13.py`. Mọi con số tính từ cột `_simulated` ghi nhãn `simulated`. Mỗi câu trả lời không quá ba dòng, có ít nhất một con số.
 
+**Kiểm số tính tay (người kiểm số, độc lập với `mo_hinh`):**
+
+- Hoá đơn token + tool = Σ(tokens_in × 26 + tokens_out × 130) / 1.000 + Σtool_calls × 15 trên **cả 1.624 lần chạy** (kể cả lần lỗi) = 245.585 + 84.000 = 329.585 đ → ÷ 1.200 yêu cầu = **274,7 đ/yêu cầu**.
+- Tổng chi phí = 329.585 + 890 phút × 2.000 + 1.132 phút × 2.000 = 4.373.585 đ → ÷ 978 việc `thanh_cong` = **4.472 đ** [simulated]. Tỉ số 4.472 / 274,7 = **16,3×**, khớp với `lab13.py`; A3, A4, B1–B4 cũng khớp với `lab13.py`.
+
 ## A1 · Ba phép thử đáp án biết trước
 
 | Phép thử (p = 0,8) | Kết quả của nhóm |
@@ -26,6 +31,7 @@ Số tính bằng `src/lab13.py`. Mọi con số tính từ cột `_simulated` g
 
 - Chi phí mỗi việc thành công gấp bao nhiêu lần "hoá đơn chia số yêu cầu"? Gấp 16,3 lần: 4.472 đ so với 274,7 đ [simulated]. Phần chênh là giờ nhân viên xem lại và làm lại, hoá đơn token + tool không thấy.
 - Khoản nào chiếm tỉ trọng lớn nhất trong tổng chi phí, bao nhiêu phần trăm? Làm lại 51,8% (2.264.000 đ), kế đó xem lại 40,7%; token chỉ 5,6% và tool 1,9% [simulated].
+- So với 12.000 đ phải cộng phần nhân viên làm thay 222 ca không thành công: (4.373.585 + 222 × 12.000) / 1.200 = **5.865 đ/yêu cầu = 0,49×** [simulated], không viết 0,37×.
 
 ## A3 · Tách theo loại yêu cầu
 
