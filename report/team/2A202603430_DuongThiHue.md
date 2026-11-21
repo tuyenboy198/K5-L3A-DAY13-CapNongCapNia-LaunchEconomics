@@ -31,7 +31,7 @@
 ## 5. Công cụ AI đã dùng
 
 - Claude Code: đọc đề và hướng dẫn, soạn nháp bảng khắc phục và câu chữ cho các dòng rủi ro E2, viết script kiểm số bằng thư viện chuẩn Python.
-- Cách tự kiểm tra: chạy script trên hai file CSV và so với bảng B1, B4, A4 (lệch ≤ 2%); kiểm "giảm một nửa = nửa mức tăng"; `grep -rni production report/team` không in gì. Bộ nhãn 20 ca tôi tự rà lại từng ca theo câu hỏi nhận diện của PAIR trước khi commit; không đọc bảng nhãn tham khảo trong hướng dẫn chi tiết.
+- Cách tự kiểm tra: chạy script trên hai file CSV và so với bảng B1, B4, A4 (lệch ≤ 2%); kiểm "giảm một nửa = nửa mức tăng"; lệnh grep tìm từ cấm (quy tắc 5 trong `README.md`) trên `report/team` không in gì. Bộ nhãn 20 ca tôi tự rà lại từng ca theo câu hỏi nhận diện của PAIR trước khi commit; không đọc bảng nhãn tham khảo trong hướng dẫn chi tiết.
 
 ## 6. Tự đánh giá
 
