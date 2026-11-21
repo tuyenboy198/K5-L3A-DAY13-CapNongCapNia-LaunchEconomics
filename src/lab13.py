@@ -76,6 +76,33 @@ def tieu_de(s):
     print(f'\n===== {s} =====')
 
 
+# ---------- Nhiệm vụ D1 · Cỡ mẫu ----------
+def co_mau(p1, p2, alpha=0.05, power=0.8):
+    """Cỡ mẫu mỗi nhóm để so hai tỉ lệ p1, p2 (kiểm định hai phía)."""
+    from statistics import NormalDist
+    za, zb = NormalDist().inv_cdf(1 - alpha / 2), NormalDist().inv_cdf(power)
+    pb = (p1 + p2) / 2
+    return math.ceil((za * math.sqrt(2 * pb * (1 - pb))
+                      + zb * math.sqrt(p1 * (1 - p1) + p2 * (1 - p2))) ** 2 / (p2 - p1) ** 2)
+
+
+def nhiem_vu_d(reqs, icc=0.02):
+    n5, n6 = co_mau(0.70, 0.75), co_mau(0.70, 0.76)
+    assert n5 == 1251 and n6 == 859, (n5, n6)
+    de75 = 1 + 74 * icc
+    # e: 20m / (1 + (m - 1) * icc) >= n6  →  m >= n6 * (1 - icc) / (20 - n6 * icc)
+    m_e = math.ceil(n6 * (1 - icc) / (20 - n6 * icc))
+    print('\nD1 · Cỡ mẫu (baseline 0,70; ICC 0,02)')
+    print(f'  a) Chia theo yêu cầu: {n5:,} mỗi nhóm')
+    print(f'  b) Theo nhân viên, m=75: DE={de75:.2f} → {math.ceil(n5 * de75):,} mỗi nhóm '
+          f'= {math.ceil(n5 * de75 / 75)} người/nhóm (cần {2 * math.ceil(n5 * de75 / 75)} > 40)')
+    print(f'  c) 20 nhân viên mỗi nhóm: tối đa {20 / icc:,.0f} < {n5:,} → không đạt')
+    print(f'  d) 6 depot mỗi nhóm: tối đa {6 / icc:,.0f}')
+    print(f'  e) Mức chênh 6 điểm ({n6}/nhóm), 20 người/nhóm: m ≥ {m_e} (DE {1 + (m_e - 1) * icc:.2f})')
+    print(f'D3 · mo_lai_trong_7_ngay hiện tại: {reqs.mo_lai_trong_7_ngay.mean():.2%}; '
+          f'noi_dia+hang_nang: {reqs[reqs.loai.isin(["noi_dia", "hang_nang"])].mo_lai_trong_7_ngay.mean():.2%}')
+
+
 if __name__ == '__main__':
     runs = pd.read_csv('logix_runs.csv')
     reqs = pd.read_csv('logix_requests.csv', keep_default_na=False)
@@ -170,6 +197,5 @@ if __name__ == '__main__':
         print(f'làm lại {phut_lam:4.1f} phút/ca: tổng {tong:,.0f} đ · cps {cps:,.0f} đ = {cps / BASELINE:.2f}× '
               f'· hoà vốn khi xem lại ≤ {hoa_von:.1f} phút')
 
-    # TODO CP4 · Nhiệm vụ D: cỡ mẫu.
-    #   from statsmodels.stats.proportion import proportion_effectsize
-    #   from statsmodels.stats.power import NormalIndPower
+    # CP4 · Nhiệm vụ D: cỡ mẫu (dùng statistics.NormalDist, không cần statsmodels).
+    nhiem_vu_d(reqs)
