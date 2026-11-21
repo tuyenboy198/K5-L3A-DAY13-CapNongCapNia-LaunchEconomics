@@ -21,7 +21,7 @@
 - A3 bốn loại yêu cầu (`quoc_te` 22.515 đ = 1,88× nên không đáng xử lý); A4 cộng chi phí cố định 40 triệu đ/tháng: 4.599 đ = 0,38× ở 45.000 yêu cầu/tháng, 5.784 đ = 0,48× ở một nửa khối lượng [simulated].
 - B1 chín kịch bản; B2 cặp token + xem lại +46,3% bằng tổng hai tác động riêng; B3 giới hạn 2 lần rẻ nhất cho cả hệ thống (6.901.220 đ) còn 1 lần thấp nhất theo chi phí mỗi việc (4.111 đ); B4 xem lại 100%: 0,98× (làm lại 9 phút), 1,03× (15,3 phút), hoà vốn xem lại ≤ 5,1 phút [simulated].
 - Điền đủ các câu trả lời A2–A4, B2–B4 (mỗi câu ≤ 3 dòng, có số, có nhãn simulated).
-- Phần còn chờ người khác: kiểm số D1 (cỡ mẫu theo yêu cầu, nhân viên, depot, mức chênh 6 điểm), vì cần phần code CP4 của Dương Minh Tân.
+- Kiểm số D1 sau khi có code CP4 của Dương Minh Tân: `lab13.py` in đủ năm câu, khớp đáp án: a) 1.251 mỗi nhóm · b) DE 2,48 → 3.103 mỗi nhóm = 42 người/nhóm (84 > 40) · c) tối đa 1.000 < 1.251, không đạt · d) tối đa 300 · e) mức chênh 6 điểm (859/nhóm), 20 người/nhóm: m ≥ 299 (DE 6,96).
 
 ## 4. Bằng chứng
 
@@ -37,4 +37,4 @@
 ## 6. Tự đánh giá
 
 - Xong: CP1–CP2 trong code, bảng A1–B4 và toàn bộ câu trả lời, báo cáo cá nhân, mục đóng góp trong `TEAM.md`.
-- Chưa xong (chờ): kiểm số D1 sau khi Tân đưa code CP4; chạy lại `lab13.py` lần cuối khi Tân đã thêm phần CP4.
+- Xong thêm: kiểm số D1 năm câu khớp đáp án; chạy lại `lab13.py` lần cuối trên `main` sau khi có phần CP4, chạy hết (exit 0).

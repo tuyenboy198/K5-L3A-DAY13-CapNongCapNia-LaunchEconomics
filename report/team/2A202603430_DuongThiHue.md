@@ -39,4 +39,4 @@
 
 - Xong: bộ nhãn người 2, bảng khắc phục 5 ca đủ 5 loại, E2 3 dòng có nhãn simulated, dấu hiệu theo dõi và người phụ trách.
 - Xong thêm: tỉ lệ đồng thuận 19/20, quy tắc ca 17, cột nhãn thống nhất, mục 5 hồ sơ.
-- Chưa xong (chờ): phiếu chấm /30, cần hồ sơ thật của nhóm n + 1.
+- Xong thêm: phiếu chấm hội đồng (cùng Phan Sỹ Hùng) cho nhóm VOI, 30/30, quyết định Go có điều kiện; góp ý tách luật hoàn trùng thành dừng ngay (`report/team/phieu_cham.md`).
