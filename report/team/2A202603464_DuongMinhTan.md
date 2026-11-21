@@ -26,7 +26,7 @@
 - `report/team/bang_chi_phi.md`: dòng kiểm số tính tay, bảng A2–A4, B1–B4.
 - `src/lab13.py`: hàm `co_mau()` (có assert 1.251 và 859) và `nhiem_vu_d()`.
 - `report/team/pilot_plan.yaml`: `yaml.safe_load` đọc được; `grep -v '^ *#' ... | grep -n '?'` không in gì.
-- Commit: (điền hash sau khi push)
+- Commit: `332e0c1` trên nhánh `mihtan05/cp4`
 
 ## 5. Công cụ AI đã dùng
 
@@ -35,4 +35,6 @@
 
 ## 6. Tự đánh giá
 
-...
+- Làm tốt: tính số độc lập và khớp 100% với code của Hưng (A2–B4); tính đủ 5 câu D1 trước khi chọn cách chia, và ghi rõ con số bất lợi (power ~0,64 nếu tác động thật chỉ 5 điểm).
+- Chưa tốt: dựa nhiều vào AI để viết nháp; chưa chạy thử `lab13.py` trên máy khác trong nhóm.
+- Bài học: cách chia theo cụm quyết định cỡ mẫu nhiều hơn tổng số yêu cầu; phải xem tỉ lệ hiện tại (4,25%) trước khi đặt ngưỡng an toàn.
