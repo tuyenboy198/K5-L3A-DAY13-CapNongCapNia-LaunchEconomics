@@ -43,14 +43,19 @@ report/team/MSSV_HoTen.md
 - Tạo repo nhóm, điền `TEAM.md`, tích hợp và push bản nộp.
 - Giữ hồ sơ: `report/team/ho_so_launch_v0.md` (7 mục và đề xuất cuối).
 - `report/team/group_report.md`; trình bày khi nhóm bị duyệt chéo Gate 2a.
+- Nhận thêm phần còn lại của vai người viết code 1: kiểm số D1, chạy lại `lab13.py` từ bản clone sạch.
 
 ### Đóng góp cụ thể
 
--
+- Setup repo, `TEAM.md`, khung hồ sơ (commit `a621235`).
+- Viết A1–A4, B1–B4 trong `src/lab13.py` và các bảng số A1–A4, B1, B3, B4 trong `bang_chi_phi.md` (commit `fb9af99`): ba phép thử ĐẠT; 4.472 đ/việc thành công [simulated].
+- Kiểm số D1 bằng cách độc lập (statsmodels `NormalIndPower`, Cohen's h): 1.250 so với 1.251 · DE 2,48 · 1.000 · 300 · m ≥ 299; power 0,64 ở mức 5 điểm với n = 859. Lệch ≤ 0,3%.
+- Clone sạch nhánh nộp, chạy `python lab13.py` hết, `pilot_plan.yaml` qua `yaml.safe_load`, không còn `?`.
+- `ho_so_launch_v0.md` đủ 7 mục và đề xuất Go có điều kiện (4 điều kiện, mỗi điều kiện có vai trò và ngày kiểm tra); `group_report.md`; merge các nhánh.
 
 ### Bằng chứng
 
--
+- Commit `a621235`, `fb9af99`; nhánh `tuyenboy198/cp5-hoso`; `report/team/ho_so_launch_v0.md`, `report/team/group_report.md`, `report/team/2A202603511_DuongNgocTuyen.md`.
 
 ## NguyenTienHung-2A202603365
 
