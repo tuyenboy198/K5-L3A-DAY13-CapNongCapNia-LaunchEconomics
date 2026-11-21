@@ -95,7 +95,8 @@ report/team/MSSV_HoTen.md
 
 - Đối chiếu CP1–CP2 với đáp án: A2 4.472 đ, A3, B1–B4 đều khớp (lệch tối đa 0,01%) [simulated].
 - Tính độc lập E1 để kiểm bản trong `chi_so.md`: 82,83% · 27,12% · 4,25% (phạm vi 3,97%), khớp; cả 51 ca mở lại đều là `lam_lai`.
-- Chờ: bộ nhãn người 1 cho 20 ca (CP3); câu hỏi hội đồng cho nhóm n + 1.
+- Bộ nhãn độc lập người 1 cho 20 ca (commit `028c8ed` trước khi so); đồng thuận 19/20 = 95%, quy tắc cho ca 17.
+- Chờ: câu hỏi hội đồng cho nhóm n + 1.
 
 ### Bằng chứng
 

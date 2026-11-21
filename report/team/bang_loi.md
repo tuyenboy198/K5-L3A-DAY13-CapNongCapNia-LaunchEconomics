@@ -8,28 +8,28 @@ Người gắn nhãn 1: Phan Sỹ Hùng (@KumaMichio) · Người gắn nhãn 2:
 
 | Ca | Nhãn người 1 | Nhãn người 2 | Trùng? | Nhãn thống nhất |
 | --: | --- | --- | --- | --- |
-| 1 | Do người dùng | Do người dùng | _chờ so_ | _chờ gộp_ |
-| 2 | Hệ thống | Hệ thống | _chờ so_ | _chờ gộp_ |
-| 3 | Ngữ cảnh | Ngữ cảnh | _chờ so_ | _chờ gộp_ |
-| 4 | Giới hạn hệ thống | Giới hạn hệ thống | _chờ so_ | _chờ gộp_ |
-| 5 | Ngầm | Ngầm | _chờ so_ | _chờ gộp_ |
-| 6 | Do người dùng | Do người dùng | _chờ so_ | _chờ gộp_ |
-| 7 | Hệ thống | Hệ thống | _chờ so_ | _chờ gộp_ |
-| 8 | Hệ thống | Hệ thống | _chờ so_ | _chờ gộp_ |
-| 9 | Do người dùng | Do người dùng | _chờ so_ | _chờ gộp_ |
-| 10 | Ngữ cảnh | Ngữ cảnh | _chờ so_ | _chờ gộp_ |
-| 11 | Giới hạn hệ thống | Giới hạn hệ thống | _chờ so_ | _chờ gộp_ |
-| 12 | Ngầm | Ngầm | _chờ so_ | _chờ gộp_ |
-| 13 | Giới hạn hệ thống | Giới hạn hệ thống | _chờ so_ | _chờ gộp_ |
-| 14 | Do người dùng | Do người dùng | _chờ so_ | _chờ gộp_ |
-| 15 | Hệ thống | Hệ thống | _chờ so_ | _chờ gộp_ |
-| 16 | Ngữ cảnh | Ngữ cảnh | _chờ so_ | _chờ gộp_ |
-| 17 | Hệ thống | Ngầm | _chờ so_ | _chờ gộp_ |
-| 18 | Ngữ cảnh | Ngữ cảnh | _chờ so_ | _chờ gộp_ |
-| 19 | Giới hạn hệ thống | Giới hạn hệ thống | _chờ so_ | _chờ gộp_ |
-| 20 | Hệ thống | Hệ thống | _chờ so_ | _chờ gộp_ |
+| 1 | Do người dùng | Do người dùng | Có | Do người dùng |
+| 2 | Hệ thống | Hệ thống | Có | Hệ thống |
+| 3 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh |
+| 4 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống |
+| 5 | Ngầm | Ngầm | Có | Ngầm |
+| 6 | Do người dùng | Do người dùng | Có | Do người dùng |
+| 7 | Hệ thống | Hệ thống | Có | Hệ thống |
+| 8 | Hệ thống | Hệ thống | Có | Hệ thống |
+| 9 | Do người dùng | Do người dùng | Có | Do người dùng |
+| 10 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh |
+| 11 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống |
+| 12 | Ngầm | Ngầm | Có | Ngầm |
+| 13 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống |
+| 14 | Do người dùng | Do người dùng | Có | Do người dùng |
+| 15 | Hệ thống | Hệ thống | Có | Hệ thống |
+| 16 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh |
+| 17 | Hệ thống | Ngầm | Không | Ngầm (đề xuất, chờ Huệ xác nhận) |
+| 18 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh |
+| 19 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống |
+| 20 | Hệ thống | Hệ thống | Có | Hệ thống |
 
-**Tỉ lệ đồng thuận:** _chờ so nhãn_ / 20 = _…_% (cần ≥ 16/20 = 80%)
+**Tỉ lệ đồng thuận:** 19 / 20 = 95% (cần ≥ 16/20 = 80%). Ca không trùng: 17.
 
 Phân bố bộ nhãn người 2: Do người dùng 4 (ca 1, 6, 9, 14) · Hệ thống 5 (ca 2, 7, 8, 15, 20) · Ngữ cảnh 4 (ca 3, 10, 16, 18) · Giới hạn hệ thống 4 (ca 4, 11, 13, 19) · Ngầm 3 (ca 5, 12, 17).
 
@@ -37,7 +37,7 @@ Phân bố bộ nhãn người 2: Do người dùng 4 (ca 1, 6, 9, 14) · Hệ t
 
 Mỗi ca không trùng một câu. Đồng thuận dưới 80% thì ghi định nghĩa đã viết lại.
 
-- _Điền sau khi so nhãn với người gắn nhãn 1 (mỗi ca không trùng một câu quy tắc)._
+- Ca 17 (người 1: Hệ thống · người 2: Ngầm): hệ thống làm sai, nhưng 212 đơn lệch trong 9 ngày không ai mở lại và không cảnh báo nào kích. Quy tắc: lỗi do hệ thống mà chưa ai nhận ra cho tới khi kiểm tra thì gắn **Ngầm**; chỉ gắn **Hệ thống** khi lỗi đã lộ ra (khách mở lại, nhân viên bắt được, có cảnh báo). Cùng quy tắc với ca 5 và 12.
 
 ## Bảng khắc phục cho 5 ca, mỗi loại một ca
 

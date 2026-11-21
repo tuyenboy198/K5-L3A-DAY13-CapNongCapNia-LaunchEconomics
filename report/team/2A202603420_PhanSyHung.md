@@ -20,7 +20,7 @@
 - Đối chiếu CP1–CP2: chạy lại `src/lab13.py`, ba phép thử ĐẠT; A2 4.472 đ, A3 (2.696 · 8.221 · 22.515 · 10.215 đ), B1 9 dòng, B2 6.543 đ, B3 rẻ nhất ở 2 lần (6.901.220 đ), B4 11.743 đ = 0,98× đều khớp đáp án; B4 với 15,3 phút ra 12.415 đ so với 12.414 đ, lệch 0,01% [simulated].
 - E1: tính độc lập trên 1.200 yêu cầu, khớp bản trong `chi_so.md`: chỉ số chính trong đợt chạy thử 82,83% (994/1.200), bỏ qua gợi ý 27,12% (48/177: 41 sửa + 7 bỏ), lỗi lọt đến khách 4,25% (51/1.200), phạm vi `noi_dia` + `hang_nang` 3,97% (39/982).
 - Phát hiện thêm: cả 51 ca mở lại đều có `ket_qua = lam_lai`; chỉ số chính theo loại là `noi_dia` 95,27%, `hang_nang` 76,58%, `doi_tac` 58,82%, `quoc_te` 32,00%. Đây là chênh lệch trong đợt chạy thử, chưa phải tác động của trợ lý.
-- CP3: ... (điền sau khi gắn nhãn và so với Huệ: số ca đồng thuận /20)
+- CP3: tự gắn nhãn độc lập 20 ca (commit `028c8ed` trước khi so); đồng thuận với Huệ 19/20 = 95%. Ca 17 không trùng (tôi: Hệ thống, Huệ: Ngầm); quy tắc: lỗi hệ thống chưa ai nhận ra cho tới khi kiểm tra thì gắn Ngầm.
 - Hội đồng: ... (điền câu hỏi có số đã đặt cho nhóm n + 1)
 
 ## 4. Bằng chứng
@@ -30,7 +30,7 @@
 
 ## 5. Công cụ AI đã dùng
 
-Dùng Claude Code để tính lại ba chỉ số bằng pandas, chạy lại `lab13.py` và đối chiếu với số trong hướng dẫn chi tiết (mục A, B, E1). Tôi tự kiểm tra bằng cách so từng con số với đáp án, lệch không quá 2%. Không dùng AI để gắn nhãn 20 ca lỗi ở CP3.
+Dùng Claude Code để tính lại ba chỉ số bằng pandas, chạy lại `lab13.py` và đối chiếu với số trong hướng dẫn chi tiết (mục A, B, E1). Tôi tự kiểm tra bằng cách so từng con số với đáp án, lệch không quá 2%. Nhãn 20 ca ở CP3 do tôi tự gắn; AI chỉ dùng để chép nhãn vào bảng và đếm số ca trùng.
 
 ## 6. Tự đánh giá
 
