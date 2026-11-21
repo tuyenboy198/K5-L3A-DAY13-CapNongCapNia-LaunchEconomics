@@ -2,7 +2,7 @@
 
 Nhóm số n chấm nhóm số n + 1; nhóm cuối chấm nhóm 1. Chấm theo bằng chứng trong hồ sơ, không theo cách trình bày: một đề xuất No-go có lý do bằng số được điểm cao hơn một đề xuất Go bỏ qua con số bất lợi.
 
-- Nhóm chấm (hội đồng): ...
+- Nhóm chấm (hội đồng): CapNongCapNia (L3A) · chủ trì: Dương Thị Huệ (người gắn nhãn 2), cùng Phan Sỹ Hùng (người gắn nhãn 1)
 - Nhóm được chấm: ...
 
 | Tiêu chí | 0 điểm | 5 điểm | 10 điểm | Điểm | Lý do (có số) |
